@@ -6,9 +6,8 @@ body{
     background-color:rgba(35, 170, 46, 0.4);
     margin: 0;
     border:none;
-    display: grid;
+    display: flex;
     justify-content: center;
-    align-items: center;
     min-height: 100vh;
     background-image: url("https://www.shyamparivar.com/uploads/gallery/Sky-and-Moon-Dark-Wallpaper-for-Desktop-and-Laptop.jpg");
     background-size: cover;
@@ -16,17 +15,22 @@ body{
 }
 ul>button{
     float:left;
-    margin-right: 5px;
+    margin:7.5px 5px 7.5px 0;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(223, 208, 236);
+    font-weight: bold;
 }
 .main-container{
     max-width: 500px;
+    margin:50px auto;
     border-radius: 8px;
     padding: 0 10px;
     background-color: rgba(255, 255, 255, 0.3);
-    background-position: center;
     backdrop-filter: blur(5px);
 }
 ul{
+    line-height: 2em;
     list-style-type: none;
     padding:0;
     margin:2px 0;
@@ -34,4 +38,5 @@ ul{
 h2{
     text-align: center;
     font-size: 2em;
+    margin: .5em;
 }

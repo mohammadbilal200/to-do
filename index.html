@@ -13,8 +13,19 @@
             <h2>To-do list</h2>
             <input type="text" name="task" id="task-input" required placeholder="Enter your task here">
             <button onclick="addTask()">+</button>
-            <ul id="tasks"></ul>
+            <ul id="tasks">
+                <button onclick="removeTask(event)" id="btn-0">1</button>
+                <li>wake up</li>
+                <button onclick="removeTask(event)" id="btn-1">2</button>
+                <li>do nothing</li>
+                <button onclick="removeTask(event)" id="btn-2">3</button>
+                <li>watch tv</li>
+                <button onclick="removeTask(event)" id="btn-3">4</button>
+                <li>fight at home</li>
+                <button onclick="removeTask(event)" id="btn-4">5</button>
+                <li>sleep</li>
+            </ul>
         </div>
-        <script type="text/javascript" src="script/script.js"></script>
+        <script type="text/javascript" src="script\script.js"></script>
     </body>
 </html>
